@@ -39,12 +39,12 @@ int main(int ac, char** av)
         return -1;
     }
  
-    if (std::strncmp(av[ac - 1], "C137", 4)==0)      // must use strncmp not ==, == doesn't work
+    if (strncmp(av[ac - 1], "C137", 4)==0)      // must use strncmp not ==, == doesn't work
     {
         if (ac == 5) C137::Morty(atoi(av[1]), atoi(av[2]), atoi(av[3]));    // if step there use it
         else C137::Morty(atoi(av[1]), atoi(av[2]));                         // when no step given
     }
-    else if (std::strncmp(av[ac - 1], "Z286", 4)==0) // must use strncmp not ==, == doesn't work
+    else if (strncmp(av[ac - 1], "Z286", 4)==0) // must use strncmp not ==, == doesn't work
     {
         if (ac == 5) Z286::Morty(atoi(av[1]), atoi(av[2]), atoi(av[3]));    // if step there use it
         else Z286::Morty(atoi(av[1]), atoi(av[2]));                         // when no step given
