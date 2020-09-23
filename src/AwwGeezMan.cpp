@@ -22,6 +22,7 @@ SUBMITTED BY: NGUYEN, THUY
 
 #include <iostream>
 #include <string>
+#include <string.h>
 #include "Morty.cpp"
 
 int main(int ac, char** av)
