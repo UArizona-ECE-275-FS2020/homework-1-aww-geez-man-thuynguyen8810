@@ -52,7 +52,7 @@ int main(int ac, char** av)
     }
     else
     {
-        std::cout << "Error: unknown dimension!!" << std::endl;             // no valid dimension
+        std::cout << "ERROR: Unknown dimension!!" << std::endl;             // no valid dimension
         return -1;
     }
 
